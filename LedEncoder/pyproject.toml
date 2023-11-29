@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ledencoder"
+version = "0.1.0"
+description = ""
+authors = ["Alexander Skripnik <alexander.skripnik@tum.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyqt6 = "^6.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
